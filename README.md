@@ -1,26 +1,27 @@
 My name is Karemera Migisha Divine, I was inspired to name my web app Diva Koordinate with the initials from my name. 
 Briefly explained, Diva Koordinate is a lightweight web application designed to help users when managing their personal projects and tasks in a more efficient way. Find more in the Deck Presentation at https://www.canva.com/design/DAGBMgylS3E/5uSJcgykRnON8djasOzMgA/edit?utm_content=DAGBMgylS3E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 To run Diva Koordinate locally, follow these steps:
 
-Ensure You Have Prerequisites:
+1. Ensure You Have Prerequisites:
 Make sure you have the following installed on your system:
 Node.js: Download and install Node.js from the official website.
 npm (Node Package Manager): npm comes bundled with Node.js.
 Clone or Download the Diva Koordinate Repository:
 If you have the Diva Koordinate codebase, navigate to the project directory.
 If not, you can clone the repository from a version control system (e.g., GitHub) using:
-git clone <repository_url>
+git clone https://github.com/divinekaremera/containerizing_app.git
 
-Navigate to the Project Directory:
+2. Navigate to the Project Directory:
 Open your terminal or command prompt.
 Change the directory to where your Diva Koordinate project is located:
 cd path/to/diva-koordinate
 
-Install Dependencies:
+3. Install Dependencies:
 Run the following command to install project dependencies (assuming you have a package.json file):
 npm install
 
-Start the Local Server:
+4. Start the Local Server:
 Use a local server to serve your web application. For example:
 If you have Node.js installed, use http-server:
 npm install -g http-server
