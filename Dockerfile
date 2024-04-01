@@ -1,14 +1,6 @@
-FROM nginx:alpine
-
-
-WORKDIR /usr/share/nginx/html
-
-
-COPY index.html .
-COPY styles.css .
-COPY app.js .
+FROM nginx:1.10.1-alpine
+COPY src/html /usr/share/nginx/html
 
 EXPOSE 80
-
 
 CMD ["nginx", "-g", "daemon off;"]
